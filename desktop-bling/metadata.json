@@ -1,0 +1,8 @@
+{
+  "uuid": "taskbar-spartan@desktop-bling.local",
+  "name": "Taskbar Spartan",
+  "description": "A tiny 8-bit Spartan pops up and fights Covenant along your dock.",
+  "shell-version": ["50"],
+  "settings-schema": "org.gnome.shell.extensions.taskbar-spartan",
+  "version-name": "0.1"
+}

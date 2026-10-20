@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.taskbar-spartan" path="/org/gnome/shell/extensions/taskbar-spartan/">
+    <key name="min-interval" type="i">
+      <range min="1" max="240"/>
+      <default>5</default>
+      <summary>Minimum minutes between deployments</summary>
+    </key>
+    <key name="max-interval" type="i">
+      <range min="1" max="240"/>
+      <default>20</default>
+      <summary>Maximum minutes between deployments</summary>
+    </key>
+    <key name="scale" type="i">
+      <range min="1" max="4"/>
+      <default>2</default>
+      <summary>Screen pixels per art pixel</summary>
+    </key>
+    <key name="frame-rate" type="i">
+      <range min="10" max="30"/>
+      <default>30</default>
+      <summary>Animation frames per second (lower uses less CPU)</summary>
+    </key>
+    <key name="max-enemies" type="i">
+      <range min="2" max="16"/>
+      <default>8</default>
+      <summary>Most enemies on screen at once</summary>
+    </key>
+    <key name="monitor" type="s">
+      <choices>
+        <choice value="primary"/>
+        <choice value="random"/>
+      </choices>
+      <default>'primary'</default>
+      <summary>Which monitor the Spartan deploys on</summary>
+    </key>
+    <key name="paused" type="b">
+      <default>false</default>
+      <summary>Stop automatic deployments</summary>
+    </key>
+    <key name="show-indicator" type="b">
+      <default>true</default>
+      <summary>Show the top bar menu</summary>
+    </key>
+  </schema>
+</schemalist>
